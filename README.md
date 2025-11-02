@@ -15,8 +15,6 @@ It explores how environmental and design factors influence energy consumption, h
   <img src="https://skillicons.dev/icons?i=python,sklearn,pandas,numpy,matplotlib,seaborn,jupyter" />
 </p>
 
----
-
 ## ⚙️ Key Steps
 1. Exploratory data analysis (EDA)  
 2. Model training and evaluation  

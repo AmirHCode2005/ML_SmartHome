@@ -1,39 +1,41 @@
 # 🏠 Smart Home Energy Efficiency Prediction
 
 ## 📘 Overview
-This project applies **Machine Learning** to predict **energy efficiency** in smart homes.  
-It explores how environmental and design factors influence energy consumption, helping optimize smart home systems.
+This project applies **Machine Learning** techniques to predict **energy efficiency** in smart homes.  
+It is a **Binary Classification** problem, where the goal is to classify homes based on their energy performance levels.
 
 ## 🧠 Project Highlights
+- **Type:** Binary Classification  
 - **Language:** Python 🐍  
-- **Techniques:** Machine Learning, Data Analysis, Model Optimization  
-- **Libraries Used:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-- **Dataset:** Custom dataset containing smart home energy efficiency records (`smart_home_efficiency.csv`)
+- **Libraries:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- **Dataset:** `smart_home_efficiency.csv` — includes features related to building design and environment.
 
-## 🧩 Technologies Used
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,sklearn,pandas,numpy,matplotlib,seaborn,jupyter" />
-</p>
-
-## ⚙️ Key Steps
-1. Exploratory data analysis (EDA)  
-2. Model training and evaluation  
-3. Handling **class imbalance** — using `class_weight` in Logistic Regression to improve recall  
-4. Model testing and visualization of results  
+## ⚙️ Workflow
+1. **Data Preprocessing** – cleaning, handling missing values, and scaling features.  
+2. **Exploratory Data Analysis (EDA)** – understanding feature correlations and class distribution.  
+3. **Model Training** – logistic regression and other ML algorithms.  
+4. **Class Imbalance Handling** – applying `class_weight='balanced'` to improve minority class recognition.  
+5. **Model Evaluation** – using accuracy, precision, recall, and F1-score.
 
 ## 🚧 Challenges
-The dataset was **imbalanced**, leading the model to favor the majority class.  
-To address this, class weights were introduced — improving the model’s fairness while slightly reducing overall accuracy.
+The dataset was **imbalanced**, causing the model to initially favor the majority class.  
+By rebalancing the classes, we achieved a fairer and more meaningful performance tradeoff.
 
 ## 📊 Results
-- The model achieved consistent predictions after rebalancing.  
-- Energy efficiency classification became more reliable for both classes (0 and 1).  
+- Improved recognition of the minority class.  
+- Slight decrease in accuracy but higher model fairness.  
+- Visualized performance using confusion matrix and ROC curves.
+
+## 💡 Skills Used
+- 🐍 Python  
+- 🤖 Machine Learning  
+- 📊 Data Science    
+- 📈 Data Visualization  
 
 ## 📁 Files Included
-- `energy_efficiency_project.ipynb` → Main Jupyter Notebook  
-- `smart_home_efficiency.csv` → Dataset used in the analysis  
+- `energy_efficiency_project.ipynb` → Main notebook  
+- `smart_home_efficiency.csv` → Dataset  
 
 ## 📬 Contact
-Feel free to reach out if you’re interested in data science or ML projects:  
 📧 **amirhossin6825@gmail.com**  
 💬 **Telegram:** [@AmirHossin6825](https://t.me/AmirHossin6825)

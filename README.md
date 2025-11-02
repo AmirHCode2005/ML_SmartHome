@@ -10,6 +10,13 @@ It explores how environmental and design factors influence energy consumption, h
 - **Libraries Used:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
 - **Dataset:** Custom dataset containing smart home energy efficiency records (`smart_home_efficiency.csv`)
 
+  ## 🧩 Technologies Used
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,sklearn,pandas,numpy,matplotlib,seaborn,jupyter" />
+</p>
+
+---
+
 ## ⚙️ Key Steps
 1. Exploratory data analysis (EDA)  
 2. Model training and evaluation  
